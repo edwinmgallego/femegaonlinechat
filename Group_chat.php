@@ -5,7 +5,7 @@ if (isset($_POST['submit'])){
 you are running MySQL server with default
 setting (user 'root' with no password) */
 $link = mysqli_connect("localhost",
-            "root", "", "chat_app");
+            "emgbdev_admin", "Eg+-6228456", "emgbdev_chat_app");
   
 // Check connection
 if($link === false){
